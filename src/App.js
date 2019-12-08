@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <p>Changed passphrase</p>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <p>Weather API</p>
+      </div>
+    );
+  }
 }
-
-export default App;
